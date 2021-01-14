@@ -8,13 +8,20 @@ body {
 }
 .nav-logo {
     /* margin-top: 10vh; */
-    max-width: 40vw;
+    max-width: 50vw;
 }
-.navbar {
+.navbar{
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
+}
+.navbar-button-custom {
+    margin: 12px 0;
+}
+
+.navbar-custom {
+    padding: 0 8px;
 }
 
 .card-custom {
