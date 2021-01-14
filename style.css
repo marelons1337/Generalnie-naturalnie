@@ -6,8 +6,8 @@ body {
 .top-card {
     margin-top: 100px;
 }
-.main-logo {
-    margin-top: 10vh;
+.nav-logo {
+    /* margin-top: 10vh; */
     max-width: 40vw;
 }
 .navbar {
