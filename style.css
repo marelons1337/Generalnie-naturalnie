@@ -1,3 +1,4 @@
+/* https://coolors.co/e4a7af-954b88-8c4883-ffffff */
 html,
 body {
     width: 100%;
@@ -5,9 +6,13 @@ body {
 }
 .top-card {
     margin-top: 100px;
+    border: none;
+    box-shadow: none;
+}
+.card {
+    min-height: 20% !important;
 }
 .nav-logo {
-    /* margin-top: 10vh; */
     max-width: 50vw;
 }
 .navbar{
@@ -15,6 +20,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1;
+    background-color: white;
 }
 .navbar-button-custom {
     margin: 12px 0;
@@ -26,6 +32,10 @@ body {
 
 .card-custom {
     margin: 0px 20px;
+}
+
+.atricles-header{
+    border-bottom: 1px solid #e4a7af;
 }
 
 header {
@@ -99,8 +109,36 @@ span {
 footer {
     font-size: 1.1rem;
     text-align: center;
+    background-color: #e4a7af;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
-
+.love {
+    grid-row: 4/4;
+    grid-column: 2/5;
+    align-self: flex-end;
+}
+a {
+    color: #333;
+}
+.instagram {
+    grid-row: 2/2;
+}
+.gmail {
+    grid-row: 3/3;
+}
+.gmail,
+.instagram {
+    padding: 10px;
+    height: 70px;
+    grid-column: 3/4;
+}
+.footer-header {
+    font-weight: 500;
+    margin-top: 15px;
+    grid-column: 1/6;
+}
 
 @media (min-width: 60em) {
     .item-1 {
@@ -109,15 +147,18 @@ footer {
     h1 {
         font-size: 24px;
     }
+    .band{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .nav-logo {
+        max-width: 15vw;
+    }
 }
  @media (min-width: 30em) {
     .band{
         grid-template-columns: 1fr 1fr;
     }
-}
-
-@media (min-width: 60em) {
-    .band{
-        grid-template-columns: repeat(4, 1fr);
+    .nav-logo {
+        max-width: 30vw;
     }
 }
