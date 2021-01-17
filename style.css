@@ -42,6 +42,7 @@ body {
     background-color: #e4a7af;
     display: inline;
     border-bottom: 1px solid #e4a7af;
+    padding: 0 10px;
 }
 
 header {
