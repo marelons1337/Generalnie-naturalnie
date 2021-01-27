@@ -27,6 +27,10 @@ body {
     margin: 12px 0;
 }
 
+.navbar-toggler-icon,
+.navbar-button-custom {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNCAyMmgtNHYtNGg0djR6bTAtMTJoLTR2NGg0di00em0wLThoLTR2NGg0di00em0zIDB2NGgxN3YtNGgtMTd6bTAgMTJoMTd2LTRoLTE3djR6bTAgOGgxN3YtNGgtMTd2NHoiLz48L3N2Zz4=") !important;
+}
 .navbar-custom {
     padding: 0 8px;
 }
