@@ -34,7 +34,18 @@ body {
 .navbar-custom {
     padding: 0 8px;
 }
-
+.welcome-section {
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+}
+.welcome-image {
+    max-width: 90vw;
+}
+.welcome-text {
+    max-width: 90vw;
+    display: grid;
+}
 .card-custom {
     margin: 0px 20px;
 }
