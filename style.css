@@ -17,6 +17,7 @@ body {
     max-width: 50vw;
 }
 .navbar{
+    font-size: 1.3em;
     position: fixed;
     top: 0;
     width: 100%;
@@ -267,11 +268,27 @@ footer > * {
 
 /* about me specifics */
 .author {
-    margin: 150px 0;
+    margin: 0;
     max-width: 90%;
+    grid-column: 6/10;
+    grid-row: 2/4;
 }
-.about-me {
-    max-width: 90%;
-    margin: 0 auto;
-    max-width: 1240px;
+.about-me-food {
+    grid-column: 3/6;
+    grid-row: 7/11;
+    max-width: 100%;
+}
+.about-me-main {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+}
+.about-me-left {
+    grid-column: 3/6;
+    grid-row: 2/5;
+}
+.about-me-right {
+    grid-column: 7/10;
+    grid-row: 7/10;
 }
