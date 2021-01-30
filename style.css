@@ -163,10 +163,10 @@ footer {
     background-color: #e4a7af;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
 }
 .love {
-    grid-row: 5/5;
+    grid-row: 6/6;
     grid-column: 2/5;
     align-self: flex-end;
 }
@@ -184,6 +184,10 @@ a:hover {
 .gmail {
     grid-row: 4/4;
 }
+.heart {
+    grid-row: 5/5;
+}
+.heart,
 .gmail,
 .instagram {
     padding: 10px;
@@ -203,7 +207,7 @@ footer > * {
 }
 
 .footer-line {
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: 2/5;
     border-bottom: 1px solid #333;
     align-self: auto;
