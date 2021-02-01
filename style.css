@@ -5,6 +5,11 @@ body {
     height: 100%;
     font-family: 'EB Garamond', serif;
 }
+.index-main {
+    margin: 0 auto;
+    width: 98%;
+    padding: 0 20vw;
+}
 .top-card {
     margin-top: 100px;
     border: none;
@@ -89,22 +94,20 @@ body {
 	position:relative;
 	top:1px;
 }
-
+header {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #e4a7af;
+}
 .atricles-header{
     font-size: 20px;
-    margin: 0;
+    margin: 0 auto;
     color: #000000;
     background-color: #e4a7af;
     display: inline;
     border-bottom: 1px solid #e4a7af;
     padding: 0 10px;
-}
-
-header {
-    width: 90%;
-    max-width: 1240px;
-    margin: 0 auto;
-    border-bottom: 1px solid #e4a7af;
 }
 .band {
     width: 90%;
@@ -196,8 +199,13 @@ a:hover {
 .gmail,
 .instagram {
     padding: 10px;
-    height: 70px;
+    width: 70px;
+    height: auto;
     grid-column: 3/4;
+}
+svg:hover {
+    fill: white;
+    cursor: pointer;
 }
 .footer-header {
     font-weight: 500;
@@ -292,7 +300,6 @@ footer > * {
     .author {
         grid-column: 9/12;
         grid-row: 2/4;
-        margin-bottom: 50px;
     }
     .about-me-food {
         grid-column: 2/5;
