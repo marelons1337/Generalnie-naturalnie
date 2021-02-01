@@ -5,16 +5,6 @@ body {
     height: 100%;
     font-family: 'EB Garamond', serif;
 }
-.index-main {
-    margin: 0 auto;
-    width: 98%;
-    padding: 0 20vw;
-}
-.top-card {
-    margin-top: 100px;
-    border: none;
-    box-shadow: none;
-}
 .card {
     min-height: 20% !important;
 }
@@ -25,6 +15,7 @@ body {
     font-size: 1.3em;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 1;
     background-color: rgba(255,255,255,0.9) !important;
@@ -45,13 +36,17 @@ body {
 .navbar-custom {
     padding: 0 8px;
 }
+.nav-link.active {
+    color: #e4a7af !important;
+}
 .welcome-section {
+    max-width: 100%;
     display: grid;
     place-items: center;
     margin-bottom: 50px;
 }
 .welcome-image {
-    max-width: 90vw;
+    max-width: 100%;
 }
 .welcome-text {
     max-width: 90vw;
@@ -280,6 +275,11 @@ footer > * {
 }
 
 @media (min-width: 1000px) {
+    .index-main {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 20vw;
+    }
     .item-1 {
         grid-column: 1 / span 2;
     }
@@ -327,7 +327,7 @@ footer > * {
 .index-main,
 .hire-me-main,
 .about-me-main {
-    margin: 150px 20px;
+    margin: 150px 0;
 }
 .about-me {
     margin: 10px 20px;
