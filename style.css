@@ -95,7 +95,7 @@ header {
     margin: 0 auto;
     border-bottom: 1px solid #e4a7af;
 }
-.atricles-header{
+.articles-header{
     font-size: 20px;
     margin: 0 auto;
     color: #000000;
@@ -228,7 +228,40 @@ footer > * {
 .footer-paragraph {
     display: block;
 }
+.author {
+    margin: 0;
+    max-width: 90%;
+}
+.about-me-food {
+    padding-top: 10px;
+    max-width: 100%;
+}
+.contact-main,
+.index-main,
+.hire-me-main,
+.about-me-main {
+    margin: 150px 0;
+}
+.about-me {
+    margin: 10px 20px;
+}
 
+form {
+    width:50vw; margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+#message {
+    height: 20vh;
+}
+.contact-button {
+    margin: 20px 0;
+}
+.contact-header {
+    width: 50vw;
+    margin: 5vh auto;
+}
 @media (min-width: 450px) {
     .band{
         grid-template-columns: 1fr 1fr;
@@ -271,7 +304,10 @@ footer > * {
     .footer-contacts {
         grid-column: 4/4;
     }
-
+    .contact-header {
+        border-bottom: 1px solid #e4a7af;
+        margin: 1vh auto;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -313,22 +349,4 @@ footer > * {
         grid-column: 5/12;
         grid-row: 7/11;
     }
-}
-
-/* about me specifics */
-.author {
-    margin: 0;
-    max-width: 90%;
-}
-.about-me-food {
-    padding-top: 10px;
-    max-width: 100%;
-}
-.index-main,
-.hire-me-main,
-.about-me-main {
-    margin: 150px 0;
-}
-.about-me {
-    margin: 10px 20px;
 }
